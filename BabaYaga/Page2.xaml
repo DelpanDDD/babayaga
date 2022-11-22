@@ -1,0 +1,17 @@
+﻿<Page x:Class="BabaYaga.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BabaYaga"
+      mc:Ignorable="d"
+      Title="Page2" Height="542" Width="956">
+
+    <Grid>
+        <StackPanel Margin="10,10,10,10">
+            <TextBlock>Салон красоты</TextBlock>
+            <TextBlock>План салона</TextBlock>
+            <Image Source="plan_salon.jpg" Stretch="None" Height="560" Width="864"/>
+        </StackPanel>
+    </Grid>
+</Page>
